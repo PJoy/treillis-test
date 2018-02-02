@@ -1,10 +1,10 @@
 # Documentation: https://roots.io/trellis/docs/vault/
-vault_mysql_root_password: productionpw
+vault_mysql_root_password: devpw
 
 # Documentation: https://roots.io/trellis/docs/security/
 vault_users:
-  - name: "{{ admin_user }}"
-    password: example_password
+  - name: "admin"
+    password: exemple_dbpassword
     salt: "generateme"
 
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
