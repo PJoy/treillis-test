@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  92.243.3.147 :
+  testing-this :
     site_hosts:
       - canonical: 92.243.3.147
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
